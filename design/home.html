@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Daily City Desk — News Portal Prototype</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="page" class="site-wrapper">
+	<!-- Top Bar -->
+	<div class="top-bar">
+		<div class="site-container">
+			<div class="top-bar-date">
+				<span>Saturday, October 3, 2026</span>
+				<span>•</span>
+				<span>Dhaka Time: 1:58 PM</span>
+			</div>
+			<div class="top-bar-edition">
+				<span>City Edition — Static Prototype</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- Semantic Header -->
+	<header class="site-header" role="banner">
+		<div class="header-branding-area">
+			<div class="site-container">
+				<div class="site-branding">
+					<h1 class="site-title"><a href="home.html">Daily City Desk</a></h1>
+					<p class="site-tagline">Independent Local Journalism &amp; Daily Reporting</p>
+				</div>
+				<div class="header-badge">
+					<strong>LOCAL NEWSROOM</strong>
+					<span>Static Theme Prototype</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- Semantic Navigation -->
+		<nav class="main-navigation" role="navigation" aria-label="Primary Menu">
+			<div class="site-container">
+				<ul class="nav-menu">
+					<li class="current-menu-item"><a href="home.html">Home</a></li>
+					<li><a href="../category/national/">National</a></li>
+					<li><a href="../category/sports/">Sports</a></li>
+					<li><a href="../media/">Media</a></li>
+					<li><a href="../about/">About</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Breaking News Section -->
+	<div class="breaking-news-section" role="region" aria-label="Breaking News">
+		<div class="site-container">
+			<div class="breaking-news-container">
+				<div class="breaking-badge">Breaking News</div>
+				<div class="breaking-ticker">
+					<div class="breaking-items-list">
+						<span class="breaking-item">City Desk reports a new community update on municipal transit improvements.</span>
+						<span class="breaking-item">Local youth teams begin a new training session across district sports facilities.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Semantic Main Content Area -->
+	<main id="main-content" class="site-main-content" role="main">
+		<div class="site-container">
+			<div class="section-header">
+				<h2 class="section-title">Latest News Reports</h2>
+				<span class="section-subtitle">Real-time local coverage and municipal dispatches</span>
+			</div>
+
+			<div class="news-posts-grid">
+				<!-- Post 1: National -->
+				<article class="news-card">
+					<div class="news-card-media">
+						<img src="images/national-news.jpg" alt="Modern city hall and civic center plaza in daylight" onerror="this.src='https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&auto=format&fit=crop&q=80'">
+						<span class="news-card-category-badge">National</span>
+					</div>
+					<div class="news-card-body">
+						<div class="news-card-meta">
+							<span class="meta-date">October 3, 2026</span>
+							<span class="meta-sep">•</span>
+							<span class="meta-category">National</span>
+						</div>
+						<h3 class="news-card-title">
+							<a href="#">City Services Prepare for a Safer Week</a>
+						</h3>
+						<div class="news-card-excerpt">
+							<p>Municipal departments have deployed updated coordination protocols across downtown corridors to ensure seamless neighborhood safety and essential community transit this week.</p>
+						</div>
+						<div class="news-card-footer">
+							<a href="#" class="read-more-link">Read Full Report &rarr;</a>
+						</div>
+					</div>
+				</article>
+
+				<!-- Post 2: Sports -->
+				<article class="news-card">
+					<div class="news-card-media">
+						<img src="images/sports-news.jpg" alt="Youth sports team practicing on open athletic field" onerror="this.src='https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&auto=format&fit=crop&q=80'">
+						<span class="news-card-category-badge">Sports</span>
+					</div>
+					<div class="news-card-body">
+						<div class="news-card-meta">
+							<span class="meta-date">October 3, 2026</span>
+							<span class="meta-sep">•</span>
+							<span class="meta-category">Sports</span>
+						</div>
+						<h3 class="news-card-title">
+							<a href="#">Local Youth Team Begins New Training Season</a>
+						</h3>
+						<div class="news-card-excerpt">
+							<p>Aspiring young athletes from community clubs gathered at the district sports complex to launch an intensive and collaborative autumn training program.</p>
+						</div>
+						<div class="news-card-footer">
+							<a href="#" class="read-more-link">Read Full Report &rarr;</a>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+	</main>
+
+	<!-- Semantic Footer -->
+	<footer class="site-footer" role="contentinfo">
+		<div class="site-container">
+			<div class="footer-grid">
+				<div class="footer-brand">
+					<h3>Daily City Desk</h3>
+					<p>Dedicated to delivering accurate, unbiased community news, municipal developments, and local sporting achievements with editorial integrity.</p>
+				</div>
+				<div class="footer-col">
+					<h4>News Sections</h4>
+					<ul>
+						<li><a href="../category/national/">National</a></li>
+						<li><a href="../category/sports/">Sports</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="../about/">About Us</a></li>
+						<li><a href="../media/">Media Library</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2026 Daily City Desk. All rights reserved. Original demo news portal.</p>
+				<p>Level-4 Web Design and Development Specification Practice</p>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
